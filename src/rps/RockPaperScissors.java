@@ -17,7 +17,8 @@ public class RockPaperScissors {
                 System.out.println("Please enter your move (Rock, Paper, Scissors, Lizard, or Spock)");
                 playerMove = sc.nextLine();
                 if (playerMove.equalsIgnoreCase("rock") || playerMove.equalsIgnoreCase("paper")
-                        || playerMove.equalsIgnoreCase("scissors") || playerMove.equalsIgnoreCase("lizard") || playerMove.equalsIgnoreCase("spock")) {
+                        || playerMove.equalsIgnoreCase("scissors") || playerMove.equalsIgnoreCase("lizard")
+                        || playerMove.equalsIgnoreCase("spock")) {
                     break;
                 }
                 System.out.println(playerMove + " is not a valid move, try again...");
@@ -89,4 +90,3 @@ public class RockPaperScissors {
         sc.close();
     }
 }
-
